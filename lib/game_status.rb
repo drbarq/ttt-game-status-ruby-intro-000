@@ -74,9 +74,6 @@ def full?(board)
       puts "draw"
       return true
 
-    else
-      puts "full"
-      return false
     end
 
 
