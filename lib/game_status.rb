@@ -45,7 +45,7 @@ def won?(board)
         puts combo
         return combo
       end
-      if position_1 == "O"  && position_2 == "O" && position_3 == "O"
+      if position_1 == " "  && position_2 == " " && position_3 == " "
 
   end
 end
