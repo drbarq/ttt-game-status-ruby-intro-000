@@ -28,10 +28,12 @@ def won?(board)
     index = board.index(space)
     if position_taken?(board, index) == true
       puts "draw"
+      return false
     else
       puts "full"
+      return false 
     end
-  end 
+  end
 
 
 
