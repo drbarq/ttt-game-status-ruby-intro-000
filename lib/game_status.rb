@@ -74,7 +74,7 @@ puts "Draw"
 return true
 end
 
-## I had an issue with != and == solving for t/f and I needed to nest the IF && was not working 
+## I had an issue with != and == solving for t/f and I needed to nest the IF && was not working
 def draw?(board)
   won?(board)
   full?(board)
@@ -94,10 +94,10 @@ def over?(board)
   won?(board)
   full?(board)
   if draw?(board) || full?(board) || won?(board)
-    return true 
-  end 
-  return false 
+    return true
+  end
+  return false
 end 
-    
-  
-end 
+
+
+end
