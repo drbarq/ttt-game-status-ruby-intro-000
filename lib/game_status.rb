@@ -61,7 +61,7 @@ def won?(board)
 end
 
 def full?(board)
-  
+
 
   board.find do |space|
     position_taken?(board, index)
