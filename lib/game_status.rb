@@ -31,7 +31,7 @@ def won?(board)
       position_3 = board[win_index_3]
 
       if position_1 == " " && position_2 == " " && position_3 == " "
-        return false 
+        return false
       end 
 
       if position_1 == "X" && position_2 == "X" && position_3 == "X"
@@ -49,7 +49,7 @@ def won?(board)
         puts combo
         return combo
       end
-  
+
       end
     end
 
