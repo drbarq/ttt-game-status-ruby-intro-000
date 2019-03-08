@@ -62,17 +62,13 @@ end
 
 def full?(board)
 
-
   board.find do |space|
-    index = board.index(space)
-    position_taken?(board, index)
-
     if space == " "
-      puts "draw"
-      return true
+      puts "game in progres"
+      return false
     end
-    puts "game in progres"
-    return false
+    puts "draw"
+    return true
   end
 
 end
