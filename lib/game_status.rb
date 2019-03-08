@@ -74,34 +74,21 @@ puts "Draw"
 return true
 end
 
-=begin
-    if position_taken?(board, index) == false
-      puts "Game in Progress"
-      return false
-    elsif  position_taken?(board, index) == true
-      puts "draw"
-      return true
 
-    end
+def draw?(board) 
+  won?(board)
+  full?(board)
 
-
-    end
-end
-=end
-
-
+  if won?(board) != true && full?(board) == true 
+    puts "Draw!"
+    return true 
+  end 
+  if won?(board) == true && full?(board) == false 
+    puts "False"
+    return false
+  end 
+end 
 
 
-=begin
-      board.each do |space|
-        position_taken?(board, index)
-        index = board.index(space)
-        if position_taken?(board, index) == true
-          puts "draw"
-          return false
-        else
-          puts "full"
-          return false
-        end
-      end
-=end
+
+
