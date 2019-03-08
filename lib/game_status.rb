@@ -26,11 +26,10 @@ def won?(board)
       position_2 = board[WIN_COMBINATIONS[1]]
       position_3 = board[WIN_COMBINATIONS[2]]
 
-      if "X" == "X"
-        puts "winner"
+      puts position_3
 
 
-
+      end 
     end
   end
 end
