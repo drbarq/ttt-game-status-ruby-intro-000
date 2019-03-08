@@ -61,14 +61,13 @@ def won?(board)
 end
 
 def full?(board)
-
-  board.find do |space|
+  board.select do |space|
     if space != " "
-      puts "game in-progress"
-      return false
+      puts "draw"
+      return true
     end
-    puts "draw"
-    return true
+    puts "game in progress"
+    return false
   end
 
 end
