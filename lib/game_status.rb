@@ -97,5 +97,4 @@ def over?(board)
     return true
   end
   return false
-end 
-
+end
