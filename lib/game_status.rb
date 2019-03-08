@@ -33,7 +33,7 @@ def won?(board)
         puts combo
         return combo
       else
-        return false
+        false
       end
       end
       end
