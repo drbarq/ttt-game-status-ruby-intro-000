@@ -45,7 +45,12 @@ def won?(board)
         puts combo
         return combo
       end
-      if position_1 == " "  && position_2 == " " && position_3 == " "
+      if position_1 != " "  && position_2 != " " && position_3 != " "
+        puts "draw"
+        return flase
+      else 
+        puts "false"
+        return false 
 
   end
 end
