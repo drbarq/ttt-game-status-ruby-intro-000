@@ -63,7 +63,7 @@ end
 def full?(board)
 
   board.find do |space|
-    if space == " "
+    if space != " "
       puts "game in progres"
       return false
     end
