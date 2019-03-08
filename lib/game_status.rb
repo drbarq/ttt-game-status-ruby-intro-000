@@ -83,7 +83,7 @@ def draw?(board)
     puts "Draw2!"
     return false
   else
-    return false
+    return true
   end
 end
 
