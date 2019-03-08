@@ -106,5 +106,4 @@ def winner(board)
       puts position_1
       return position_1
 end
-return false
 end
