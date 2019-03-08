@@ -26,7 +26,7 @@ def won?(board)
     win_index_2 = WIN_COMBINATIONS[1]
     win_index_3 = WIN_COMBINATIONS[2]
 
-    puts win_index3
+    
     end
   end
 end
