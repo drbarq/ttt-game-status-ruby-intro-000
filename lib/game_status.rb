@@ -100,5 +100,9 @@ def over?(board)
 end
 
 def winner?
+won?(board)
+  if won?(board)
+    puts combo[0]
+    return combo[0]
 
 end
