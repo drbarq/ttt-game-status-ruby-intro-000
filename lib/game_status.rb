@@ -100,11 +100,11 @@ def over?(board)
 end
 
 def winner(board)
-won?(board)
-  if won?(board)
+  won?(board)
+    if won?(board)
 
-    puts position_1
-    return position_1
+      puts position_1
+      return position_1
 end
 return false
 end
