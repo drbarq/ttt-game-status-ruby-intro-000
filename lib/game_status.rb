@@ -71,9 +71,10 @@ def full?(board)
       puts "draw"
       return true
     end
+    puts "game in progres"
+    return false 
   end
-  puts "game in proces"
-  return false
+
 end
 
 =begin
@@ -89,7 +90,7 @@ end
 
     end
 end
-=end 
+=end
 
 
 
