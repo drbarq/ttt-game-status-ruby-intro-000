@@ -85,7 +85,7 @@ def draw?(board)
   elsif won?(board) == true && full?(board) != true
     puts "game won in the first row "
     return false
-    
+
   end
 end
 
