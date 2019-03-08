@@ -61,9 +61,10 @@ def won?(board)
 end
 
 def full?(board)
-  position_taken?(board, index)
+  
 
   board.find do |space|
+    position_taken?(board, index)
     index = board.index(space)
     if position_taken?(board, index) == true
       puts "draw"
