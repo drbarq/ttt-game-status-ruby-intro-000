@@ -88,3 +88,16 @@ def draw?(board)
     end
   end
 end
+
+def over?(board)
+  draw?(board)
+  won?(board)
+  full?(board)
+  if draw?(board) || full?(board) || won?(board)
+    return true 
+  end 
+  return false 
+end 
+    
+  
+end 
