@@ -79,7 +79,7 @@ def draw?(board)
   won?(board)
   full?(board)
 
-  if won?(board) != true  
+  if won?(board) != true
     if full?(board) == true
       puts "Draw2!"
       return true
