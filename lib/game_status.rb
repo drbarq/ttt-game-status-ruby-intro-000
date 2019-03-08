@@ -21,10 +21,14 @@ def won?(board)
   position_taken?(board, index)
 
   board.each do |combo|
-    win_index_1 = win_combination[0]
-    win_index_2 = win_combination[1]
-    win_index_3 = win_combination[2]
-  end
+    combo.each do |position|
+    win_index_1 = WIN_COMBINATIONS[0]
+    win_index_2 = WIN_COMBINATIONS[1]
+    win_index_3 = WIN_COMBINATIONS[2]
+
+    
+    end
+  end 
 
 =begin
   win_index_1 = win_combination[0]
