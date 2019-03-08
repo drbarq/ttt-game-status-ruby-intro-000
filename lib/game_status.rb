@@ -62,7 +62,7 @@ end
 
 def full?(board)
   position_taken?(board, index)
-  
+
   board.find do |space|
     index = board.index(space)
     if position_taken?(board, index) == true
@@ -74,13 +74,8 @@ def full?(board)
     end
 
 
-
-      space == " "
-
-
-
     end
-  end
+
 
 
 
