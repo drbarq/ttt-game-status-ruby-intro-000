@@ -99,5 +99,3 @@ def over?(board)
   return false
 end 
 
-
-end
