@@ -67,6 +67,15 @@ def full?(board)
     index = board.index(space)
     position_taken?(board, index)
 
+    if space != " "
+      puts "draw"
+      return true 
+    end 
+  end 
+  puts "game in proces"
+  return false
+end 
+
     if position_taken?(board, index) == false
       puts "Game in Progress"
       return false
