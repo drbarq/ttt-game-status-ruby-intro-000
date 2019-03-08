@@ -85,8 +85,6 @@ def draw?(board)
   else
     return false
   end
-
-  return false
 end
 
 =begin
