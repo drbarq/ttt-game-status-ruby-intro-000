@@ -22,7 +22,7 @@ def won?(board)
 
 ## I think i need to nest the WIN_COMBINATIONS inside of the board.each
 
-
+=begin
   board.each do |space|
     position_taken?(board, index)
     index = board.index(space)
@@ -33,7 +33,8 @@ def won?(board)
       puts "full"
       return false
     end
-  end 
+  end
+=end 
 
 
 
