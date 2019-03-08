@@ -26,7 +26,7 @@ def won?(board)
       position_2 = board[WIN_COMBINATIONS[1]]
       position_3 = board[WIN_COMBINATIONS[2]]
 
-      if position_1 == "X"
+      if "X" == "X"
         puts "winner"
 
 
