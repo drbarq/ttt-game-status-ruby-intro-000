@@ -71,7 +71,7 @@ def full?(board)
     else
       puts "full"
       return false
-    end 
+    end
 
 
 
@@ -99,5 +99,3 @@ def full?(board)
         end
       end
 =end
-      
-
