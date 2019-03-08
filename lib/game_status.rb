@@ -66,8 +66,3 @@ def full?(board)
     space == " "
   end 
 end
-
-
-
-
-
