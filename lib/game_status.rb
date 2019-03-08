@@ -69,7 +69,6 @@ def full?(board)
     end
   end
 puts "Draw"
-return true
 end
 
 =begin
