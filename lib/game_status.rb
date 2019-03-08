@@ -74,8 +74,9 @@ def full?(board)
   end
   puts "game in proces"
   return false
-end 
+end
 
+=begin
     if position_taken?(board, index) == false
       puts "Game in Progress"
       return false
@@ -88,7 +89,7 @@ end
 
     end
 end
-
+=end 
 
 
 
