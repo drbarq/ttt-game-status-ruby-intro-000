@@ -57,10 +57,9 @@ def won?(board)
         puts combo
         return combo
       end
-
   end
   puts "false"
-  return false 
+  return false
 end
 
 
