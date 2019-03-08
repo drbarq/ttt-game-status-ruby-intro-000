@@ -65,7 +65,8 @@ def full?(board)
     if space != " "
       puts "draw"
       return true
-    else
+    end 
+    if space == " "
       puts "game in progress"
       return false
     end
