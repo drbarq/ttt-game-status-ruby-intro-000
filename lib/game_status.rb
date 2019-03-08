@@ -84,7 +84,7 @@ def draw?(board)
     return true
   end
   if won?(board) == true && full?(board) == true
-    puts "False2"
+    puts "False3"
     return false
   if won?(board) == true && full?(board) == false
     puts "False2"
