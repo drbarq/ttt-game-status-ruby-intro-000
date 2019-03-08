@@ -30,7 +30,8 @@ def won?(board)
       puts "draw"
     else
       puts "full"
-    end 
+    end
+  end 
 
 
 
