@@ -18,7 +18,6 @@ WIN_COMBINATIONS = [
 
 
 def won?(board)
-  position_taken?(board, index)
 
   board.each do |combo|
     combo.each do |position|
@@ -30,7 +29,7 @@ def won?(board)
     puts win_index3
     end
   end
-end 
+end
 =begin
   win_index_1 = win_combination[0]
   win_index_2 = win_combination[1]
