@@ -60,6 +60,8 @@ def won?(board)
   return false
 end
 
+
+## else doesnt work so needed to put the false return after the .select
 def full?(board)
   board.select do |space|
     if space == " "
