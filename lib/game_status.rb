@@ -60,3 +60,14 @@ def won?(board)
   end
   return false
 end
+
+def full?(board)
+  board.find do |space|
+    space == " "
+  end 
+end
+
+
+
+
+
