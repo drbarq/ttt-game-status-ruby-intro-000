@@ -75,20 +75,16 @@ return true
 end
 
 
-def draw?(board) 
+def draw?(board)
   won?(board)
   full?(board)
 
-  if won?(board) != true && full?(board) == true 
+  if won?(board) != true && full?(board) == true
     puts "Draw!"
-    return true 
-  end 
-  if won?(board) == true && full?(board) == false 
+    return true
+  end
+  if won?(board) == true && full?(board) == false
     puts "False"
     return false
-  end 
-end 
-
-
-
-
+  end
+end
