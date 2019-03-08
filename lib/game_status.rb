@@ -48,9 +48,9 @@ def won?(board)
       if position_1 != " "  && position_2 != " " && position_3 != " "
         puts "draw"
         return flase
-      else 
+      else
         puts "false"
-        return false 
+        return false
 
   end
 end
