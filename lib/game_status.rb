@@ -64,8 +64,9 @@ def full?(board)
 
 
   board.find do |space|
-    position_taken?(board, index)
     index = board.index(space)
+    position_taken?(board, index)
+
     if position_taken?(board, index) == true
       puts "draw"
       return true
