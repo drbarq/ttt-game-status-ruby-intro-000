@@ -68,8 +68,8 @@ def full?(board)
       return false
     end
   end
-
-  return true
+puts "Game in-progress"
+return true
 end
 
 =begin
