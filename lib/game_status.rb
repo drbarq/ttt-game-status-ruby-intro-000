@@ -67,7 +67,7 @@ def full?(board)
     index = board.index(space)
     if position_taken?(board, index) == true
       puts "draw"
-      return false
+      return true
     else
       puts "full"
       return false
