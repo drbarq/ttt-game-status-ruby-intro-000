@@ -53,7 +53,6 @@ def won?(board)
 
       if position_1 == "X" && position_2 == "X" && position_3 == "X"
         return combo
-
      elsif position_1 == "O"  && position_2 == "O" && position_3 == "O"
         return combo
       end
@@ -63,6 +62,7 @@ end
 
 def full?(board)
   board.find do |space|
-    space == " "
-  end 
+    if space == " "
+
+  end
 end
