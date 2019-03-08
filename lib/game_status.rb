@@ -103,6 +103,8 @@ def winner(board)
 won?(board)
   if won?(board) == true
     puts combo[0]
+    puts win_index_1
+    puts position_1
     return combo[0]
 end
 end
