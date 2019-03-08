@@ -99,6 +99,7 @@ def over?(board)
   return false
 end
 
+## i used the winner method to act as a gate keeper.  once I knew the board had a winner I compared the number of X and O 
 def winner(board)
   won?(board)
     if won?(board)
