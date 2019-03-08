@@ -104,5 +104,5 @@ won?(board)
   if won?(board) == true
     puts combo[0]
     return combo[0]
-end 
+end
 end
