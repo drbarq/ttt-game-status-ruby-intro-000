@@ -80,11 +80,11 @@ def draw?(board)
   full?(board)
 
   if won?(board) != true && full?(board) == true
-    puts "Draw!"
+    puts "Draw2!"
     return true
   end
   if won?(board) == true && full?(board) == false
-    puts "False"
+    puts "False2"
     return false
   end
 end
