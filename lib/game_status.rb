@@ -68,7 +68,7 @@ def full?(board)
       return false
     end
   end
-  puts space
+
   return true
 end
 
