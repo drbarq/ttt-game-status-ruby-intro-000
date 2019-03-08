@@ -107,4 +107,5 @@ won?(board)
     puts position_1
     return combo[0]
 end
+return false
 end
