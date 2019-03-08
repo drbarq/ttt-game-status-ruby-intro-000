@@ -33,7 +33,7 @@ def won?(board)
       puts "full"
       return false
     end
-
+  end 
 
 
 
@@ -66,7 +66,7 @@ def won?(board)
   end
 end
 
-end 
+
 
 
 =begin
