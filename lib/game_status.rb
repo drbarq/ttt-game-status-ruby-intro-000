@@ -106,10 +106,12 @@ def winner(board)
         puts board.count("X")
         puts board.count("0")
         puts "X wins"
+        return "X"
       else
         puts board.count("X")
         puts board.count("0")
         puts "Y wins"
+        return "Y"
       end
 end
 end
