@@ -27,6 +27,10 @@ def won?(board)
     position_taken?(board, index)
     index = board.index(space)
     if position_taken?(board, index) == true
+      puts "draw"
+    else
+      puts "full"
+    end 
 
 
 
