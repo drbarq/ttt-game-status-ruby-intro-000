@@ -83,12 +83,17 @@ def draw?(board)
     puts "Draw2!"
     return true
   end
-  if won?(board) == true && full?(board) == true
-    puts "False3"
-    return false
-  end 
-  if won?(board) == true && full?(board) == false
-    puts "False2"
-    return false
+
   end
+  return false
 end
+
+=begin
+if won?(board) == true && full?(board) == true
+  puts "False3"
+  return false
+end
+if won?(board) == true && full?(board) == false
+  puts "False2"
+  return false
+=end
