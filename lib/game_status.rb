@@ -99,7 +99,7 @@ def over?(board)
   return false
 end
 
-def winner?
+def winner?(board)
 won?(board)
   if won?(board) == true
     puts combo[0]
