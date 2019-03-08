@@ -66,9 +66,7 @@ def full?(board)
       puts "game in progress"
       puts space
       return false
-    else
-      puts space
-      return true
+
     end
   end
 
