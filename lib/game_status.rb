@@ -101,7 +101,7 @@ end
 
 def winner(board)
 won?(board)
-  if won?(board) == true
+  if won?(board) = true
     puts combo[0]
     puts win_index_1
     puts position_1
