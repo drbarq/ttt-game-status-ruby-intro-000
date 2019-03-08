@@ -19,19 +19,28 @@ WIN_COMBINATIONS = [
 
 def won?(board)
 
+
+
   board.each do |combo|
     combo.each do |position|
 
-      position_1 = position[0]
-      position_2 = position[1]
-      position_3 = position[2]
+      win_index_1 = position[0]
+      win_index_2 = position[1]
+      win_index_3 = position[2]
 
-      puts position_3
+      position_1 = board[win_index_1]
+      position_2 = board[win_index_2] 
+      position_3 = board[win_index_3] 
 
-
+      if position_1 == "X" && position_2 == "X" && position_3 == "X"
+        return win_combination # return the win_combination indexes that won.
+      else
+        false
+      end
+      end
       end
     end
-  end
+
 
 =begin
   win_index_1 = win_combination[0]
