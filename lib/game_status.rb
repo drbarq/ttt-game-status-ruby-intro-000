@@ -25,7 +25,7 @@ def won?(board)
 
   board.each do |space|
     position_taken?(board, index)
-    index = board.index("space")
+    index = board.index(space)
     if position_taken?(board, index) == true
 
 
