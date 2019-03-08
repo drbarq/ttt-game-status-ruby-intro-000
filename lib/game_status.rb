@@ -19,6 +19,17 @@ WIN_COMBINATIONS = [
 ## using || did not work to group the two statements
 
 def won?(board)
+
+
+
+
+  board.each do |space|
+    position_taken?(board, index)
+    index = board.index("space")
+    if position_taken?(board, index) == true
+
+
+
   WIN_COMBINATIONS.each do |combo|
       win_index_1 = combo[0]
       win_index_2 = combo[1]
@@ -28,6 +39,8 @@ def won?(board)
       position_2 = board[win_index_2]
       position_3 = board[win_index_3]
 
+
+
       if position_1 == "X" && position_2 == "X" && position_3 == "X"
         puts position_1
         puts position_2
@@ -35,7 +48,7 @@ def won?(board)
         puts combo
         return combo
       end
-      
+
       if position_1 == "O"  && position_2 == "O" && position_3 == "O"
         puts position_1
         puts position_2
