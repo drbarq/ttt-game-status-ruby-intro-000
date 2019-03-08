@@ -29,7 +29,7 @@ def won?(board)
       puts position_3
 
 
-      end 
+      end
     end
   end
 end
