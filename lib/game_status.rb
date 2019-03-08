@@ -63,12 +63,12 @@ end
 def full?(board)
   board.select do |space|
     if space == " "
-      puts "game in progress"
+      puts "Game in-progress"
       puts space
       return false
     end
   end
-puts "Game in-progress"
+puts "Draw"
 return true
 end
 
