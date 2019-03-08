@@ -20,7 +20,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
 
-
+## I think i need to nest the WIN_COMBINATIONS inside of the board.each
 
 
   board.each do |space|
@@ -31,9 +31,9 @@ def won?(board)
       return false
     else
       puts "full"
-      return false 
+      return false
     end
-  end
+
 
 
 
@@ -66,7 +66,7 @@ def won?(board)
   end
 end
 
-
+end 
 
 
 =begin
