@@ -102,7 +102,10 @@ end
 def winner(board)
   won?(board)
     if won?(board)
+      if board.count("X") > board.count("O")  
         puts board.count("X")
+        puts board.count("0")
+        puts "X wins"
 
 end
 end
