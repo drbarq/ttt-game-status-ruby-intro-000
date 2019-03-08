@@ -22,7 +22,6 @@ def won?(board)
 
   WIN_COMBINATIONS.each do |combo|
 
-    position_taken?(board, index)
 
       win_index_1 = combo[0]
       win_index_2 = combo[1]
