@@ -70,6 +70,10 @@ def full?(board)
     if position_taken?(board, index) == true
       puts "draw"
       return true
+    elsif  position_taken?(board, index) == false
+      puts "Game in Progress"
+      return false
+      
     else
       puts "full"
       return false
