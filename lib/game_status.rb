@@ -36,16 +36,16 @@ def won?(board)
         puts position_3
         puts combo
         return combo
+      end
 
-      elsif position_1 == "O"  && position_2 == "O" && position_3 == "O"
+      if position_1 == "O"  && position_2 == "O" && position_3 == "O"
         puts position_1
         puts position_2
         puts position_3
         puts combo
         return combo
-
       else
-        return false 
+        return false
       end
       end
     end
