@@ -16,10 +16,6 @@ WIN_COMBINATIONS = [
   [6,4,2]
 ]
 
-## using || did not work to group the two statements
-## I think i need to nest the WIN_COMBINATIONS inside of the board.each
-
-def won?(board)
 =begin
   board.each do |space|
     position_taken?(board, index)
@@ -34,6 +30,11 @@ def won?(board)
   end
 =end
 
+
+
+## using || did not work to group the two statements,  needed to use an else outside of the .each
+
+def won?(board)
   WIN_COMBINATIONS.each do |combo|
       win_index_1 = combo[0]
       win_index_2 = combo[1]
