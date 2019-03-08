@@ -44,10 +44,8 @@ def won?(board)
         puts position_3
         puts combo
         return combo
-
-      else
-        return false
       end
+  
       end
     end
 
