@@ -102,6 +102,7 @@ end
 def winner(board)
   won?(board)
     if won?(board)
+        puts board.count("X")
 
       puts position_1
       return position_1
