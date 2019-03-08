@@ -22,9 +22,9 @@ def won?(board)
   board.each do |combo|
     combo.each do |position|
 
-      position_1 = board[WIN_COMBINATIONS[0]]
-      position_2 = board[WIN_COMBINATIONS[1]]
-      position_3 = board[WIN_COMBINATIONS[2]]
+      position_1 = position[0]
+      position_2 = position[1]
+      position_3 = position[2]
 
       puts position_3
 
